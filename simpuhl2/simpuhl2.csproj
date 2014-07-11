@@ -181,6 +181,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\datas.mdf" />
+    <Content Include="App_Data\datas_log.ldf">
+      <DependentUpon>datas.mdf</DependentUpon>
+    </Content>
     <Content Include="assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="assets\bootstrap\css\bootstrap.css" />
@@ -592,10 +596,9 @@
     <Content Include="Views\Movies\Edit.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Other.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
