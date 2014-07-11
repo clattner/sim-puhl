@@ -15,7 +15,7 @@ namespace simpuhl2.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "BLOW ME.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
@@ -25,10 +25,6 @@ namespace simpuhl2.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
-        }
-
-        public ActionResult Other()
-        { return View();
         }
     }
 }
