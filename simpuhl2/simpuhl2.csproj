@@ -185,6 +185,7 @@
     <Content Include="App_Data\datas_log.ldf">
       <DependentUpon>datas.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Start\html\HtmlPage1.html" />
     <Content Include="assets\bootstrap\css\bootstrap-theme.css" />
     <Content Include="assets\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="assets\bootstrap\css\bootstrap.css" />
